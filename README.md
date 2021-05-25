@@ -3,7 +3,7 @@ MinimapS is a tool which accelerates minimap2 on Spark and Ray cluster respectiv
 
 #### Table of Contents
 1. [Description](#Description)
-2. [Setting up](#Setting up)
+2. [Setting up](#Settingup)
 3. [Test](#Demo)
 4. [FAQs](#FAQs)
 
@@ -19,7 +19,7 @@ The advantages of minimapS compared with minimap2:
 * Less time used in file setting on hdfs file system with Spark.
 * Higher performance when using  massive reads.
 
-<a name="Setting up"></a>
+<a name="Settingup"></a>
 II. Setting up
 ----
 MinimapS can also be installed in a local computer or a cluster.
