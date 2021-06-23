@@ -1,0 +1,58 @@
+﻿  align.c
+  bseq.c
+j:\graduation\minimap2-master\bseq.c(9): warning C4003: “__KSEQ_READ”宏的实参不足
+  chain.c
+  esterr.c
+  example.c
+  format.c
+  hit.c
+  index.c
+  kalloc.c
+  ksw2_dispatch.c
+  ksw2_extd2_sse.c
+  ksw2_exts2_sse.c
+  ksw2_extz2_sse.c
+  ksw2_ll_sse.c
+  kthread.c
+  main.c
+  map.c
+j:\graduation\minimap2-master\map.c(385): warning C4477: “fprintf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 3 拥有了类型“size_t”
+  j:\graduation\minimap2-master\map.c(385): note: 请考虑在格式字符串中使用“%zd”
+j:\graduation\minimap2-master\map.c(385): warning C4477: “fprintf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 4 拥有了类型“size_t”
+  j:\graduation\minimap2-master\map.c(385): note: 请考虑在格式字符串中使用“%zd”
+j:\graduation\minimap2-master\map.c(385): warning C4477: “fprintf”: 格式字符串“%ld”需要类型“long”的参数，但可变参数 5 拥有了类型“size_t”
+  j:\graduation\minimap2-master\map.c(385): note: 请考虑在格式字符串中使用“%zd”
+  misc.c
+  options.c
+  pe.c
+  正在生成代码...
+j:\graduation\minimap2-master\kthread.c(128): warning C4716: “ktp_worker”: 必须返回一个值
+j:\graduation\minimap2-master\kthread.c(52): warning C4716: “ktf_worker”: 必须返回一个值
+  正在编译...
+  sdust.c
+  sketch.c
+  splitidx.c
+  正在生成代码...
+align.obj : error LNK2019: 无法解析的外部符号 ksw_extz2_sse，该符号在函数 mm_align_pair 中被引用
+align.obj : error LNK2019: 无法解析的外部符号 ksw_extd2_sse，该符号在函数 mm_align_pair 中被引用
+align.obj : error LNK2019: 无法解析的外部符号 ksw_exts2_sse，该符号在函数 mm_align_pair 中被引用
+bseq.obj : error LNK2019: 无法解析的外部符号 gzdopen，该符号在函数 mm_bseq_open 中被引用
+index.obj : error LNK2001: 无法解析的外部符号 gzdopen
+bseq.obj : error LNK2019: 无法解析的外部符号 gzread，该符号在函数 ks_getuntil2 中被引用
+bseq.obj : error LNK2019: 无法解析的外部符号 gzclose，该符号在函数 mm_bseq_close 中被引用
+index.obj : error LNK2001: 无法解析的外部符号 gzclose
+bseq.obj : error LNK2019: 无法解析的外部符号 gzopen，该符号在函数 mm_bseq_open 中被引用
+index.obj : error LNK2001: 无法解析的外部符号 gzopen
+kthread.obj : error LNK2019: 无法解析的外部符号 __imp_pthread_create，该符号在函数 kt_for 中被引用
+kthread.obj : error LNK2019: 无法解析的外部符号 __imp_pthread_exit，该符号在函数 ktf_worker 中被引用
+kthread.obj : error LNK2019: 无法解析的外部符号 __imp_pthread_join，该符号在函数 kt_for 中被引用
+kthread.obj : error LNK2019: 无法解析的外部符号 __imp_pthread_mutex_init，该符号在函数 kt_pipeline 中被引用
+kthread.obj : error LNK2019: 无法解析的外部符号 __imp_pthread_mutex_destroy，该符号在函数 kt_pipeline 中被引用
+kthread.obj : error LNK2019: 无法解析的外部符号 __imp_pthread_mutex_lock，该符号在函数 ktp_worker 中被引用
+kthread.obj : error LNK2019: 无法解析的外部符号 __imp_pthread_mutex_unlock，该符号在函数 ktp_worker 中被引用
+kthread.obj : error LNK2019: 无法解析的外部符号 __imp_pthread_cond_init，该符号在函数 kt_pipeline 中被引用
+kthread.obj : error LNK2019: 无法解析的外部符号 __imp_pthread_cond_destroy，该符号在函数 kt_pipeline 中被引用
+kthread.obj : error LNK2019: 无法解析的外部符号 __imp_pthread_cond_wait，该符号在函数 ktp_worker 中被引用
+kthread.obj : error LNK2019: 无法解析的外部符号 __imp_pthread_cond_broadcast，该符号在函数 ktp_worker 中被引用
+J:\Microsoft Visual Studio\Visual Studio Packages\zlib1211\zlib-1.2.11\zlib.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+J:\Graduation\minimap2-master\x64\Release\minimap2.exe : fatal error LNK1120: 18 个无法解析的外部命令
